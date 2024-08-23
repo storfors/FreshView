@@ -110,7 +110,7 @@ function extractHomeVideos(element) {
     return extract(
         element,
         // Videos on the Home page
-        "ytd-rich-item-renderer.style-scope.ytd-rich-grid-row"
+        "ytd-rich-item-renderer.style-scope.ytd-rich-grid-renderer"
     );
 }
 
