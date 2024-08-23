@@ -2,9 +2,7 @@
   <img src="img/icon24.png"/> FreshView for YouTube™
 </h1>
 
-FreshView for YouTube™ is a [Chrome](https://chrome.google.com/webstore/detail/freshview-for-youtube/eckknmnfoohbeklmjlidmfdlakndcfkm) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/freshview-for-youtube/) extension that hides watched YouTube™ videos.
-
-⚠️ **This project is no longer maintained. Thank you to everyone who contributed their thoughts and ideas!** ⚠️
+FreshView for YouTube™ is a Chrome and Firefox extension that hides watched YouTube™ videos. Forked from https://github.com/Mandrenkov/FreshView
 
 ## Features
 
@@ -14,12 +12,14 @@ FreshView for YouTube™ is a [Chrome](https://chrome.google.com/webstore/detail
 
 ## Installation
 
-The easiest way to install this extension is to follow the instructions on the
+⚠️ I haven't put this fork in the add-ons marketplace yet ⚠️
+
+<!-- The easiest way to install this extension is to follow the instructions on the
 [Chrome Web Store](https://chrome.google.com/webstore/detail/freshview-for-youtube/eckknmnfoohbeklmjlidmfdlakndcfkm) or [Add-ons for Firefox](https://addons.mozilla.org/en-US/firefox/addon/freshview-for-youtube/) pages. This is the preferred way to add the latest,
 stable version of the extension to your browser.
 
 > **Note:** The Chrome Web Store supports Google Chrome, Microsoft Edge, and
-> other Chromium-based browsers.
+> other Chromium-based browsers. -->
 
 To install the extension manually, simply clone this GitHub repository and then
 refer to the instructions below.
@@ -40,8 +40,8 @@ refer to the instructions below.
 
 ## Support
 
-* Source Code: https://github.com/Mandrenkov/FreshView
-* Issue Tracker: https://github.com/Mandrenkov/FreshView/issues
+* Source Code: https://github.com/lozog/FreshView
+* Issue Tracker: https://github.com/lozog/FreshView/issues
 
 If you are having problems or would like to suggest a feature, please create an
 issue using the GitHub issue tracker.
