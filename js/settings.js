@@ -18,7 +18,7 @@ class Settings {
      * Reports whether watched videos on the current page should be ignored,
      * taking into account the YouTube page filters.
      *
-     * @returns {boolean} - True iff watched videos should be ignored.
+     * @returns {boolean} - True if watched videos should be ignored.
      */
     ignored() {
         const page = Path.parse(window.location.toString());
@@ -46,7 +46,7 @@ class Settings {
      * taking into account the state of the universal Hide Videos toggle and
      * bookmarks.
      *
-     * @returns {boolean} - True iff watched videos should be hidden.
+     * @returns {boolean} - True if watched videos should be hidden.
      */
     hidden() {
         const page = Path.parse(window.location.toString());

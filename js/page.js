@@ -7,7 +7,7 @@
  * 
  * @param {Element} _ - HTML element representing the YouTube page.
  * @param {string} path - Path and query components of the YouTube page URL.
- * @returns {boolean} - True iff the given element and path describe a channel page.
+ * @returns {boolean} - True if the given element and path describe a channel page.
  */
 function isChannelPage(element, _) {
     return element.querySelector("ytd-browse[page-subtype=channels]:not([hidden]) #channel-name") !== null;
@@ -18,7 +18,7 @@ function isChannelPage(element, _) {
  * 
  * @param {Element} _ - HTML element representing the YouTube page.
  * @param {string} path - Path and query components of the YouTube page URL.
- * @returns {boolean} - True iff the given element and path describe the Home page.
+ * @returns {boolean} - True if the given element and path describe the Home page.
  */
 function isHomePage(_, path) {
     return new RegExp("/$").test(path);
@@ -29,7 +29,7 @@ function isHomePage(_, path) {
  * 
  * @param {Element} _ - HTML element representing the YouTube page.
  * @param {string} path - Path and query components of the YouTube page URL.
- * @returns {boolean} - True iff the given element and path describe the Explore page.
+ * @returns {boolean} - True if the given element and path describe the Explore page.
  */
 function isExplorePage(_, path) {
     return new RegExp("/feed/explore").test(path);
@@ -40,7 +40,7 @@ function isExplorePage(_, path) {
  * 
  * @param {Element} _ - HTML element representing the YouTube page.
  * @param {string} path - Path and query components of the YouTube page URL.
- * @returns {boolean} - True iff the given element and path describe the Library page.
+ * @returns {boolean} - True if the given element and path describe the Library page.
  */
 function isLibraryPage(_, path) {
     return new RegExp("/feed/library").test(path) || new RegExp("/feed/you").test(path);
@@ -51,7 +51,7 @@ function isLibraryPage(_, path) {
  * 
  * @param {Element} _ - HTML element representing the YouTube page.
  * @param {string} path - Path and query components of the YouTube page URL.
- * @returns {boolean} - True iff the given element and path describe the History page.
+ * @returns {boolean} - True if the given element and path describe the History page.
  */
 function isHistoryPage(_, path) {
     return new RegExp("/feed/history").test(path);
@@ -62,7 +62,7 @@ function isHistoryPage(_, path) {
  * 
  * @param {Element} _ - HTML element representing the YouTube page.
  * @param {string} path - Path and query components of the YouTube page URL.
- * @returns {boolean} - True iff the given element and path describe the Subscriptions page.
+ * @returns {boolean} - True if the given element and path describe the Subscriptions page.
  */
 function isSubscriptionsPage(_, path) {
     return new RegExp("/feed/subscriptions").test(path);

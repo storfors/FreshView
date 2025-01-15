@@ -51,7 +51,7 @@ class Album {
      *
      * @param {Album} that - Album to be compared for equality.
      *
-     * @returns {boolean} - True iff the albums contain the same video IDs.
+     * @returns {boolean} - True if the albums contain the same video IDs.
      */
     equals(that) {
         const this_ids = new Set(this.getIDs());
