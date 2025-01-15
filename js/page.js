@@ -10,7 +10,7 @@
  * @returns {boolean} - True iff the given element and path describe a channel page.
  */
 function isChannelPage(element, _) {
-    return element.querySelector("ytd-browse[page-subtype=channels]:not([hidden]) #channel-container") !== null;
+    return element.querySelector("ytd-browse[page-subtype=channels]:not([hidden]) #channel-name") !== null;
 }
 
 /**
@@ -43,7 +43,7 @@ function isExplorePage(_, path) {
  * @returns {boolean} - True iff the given element and path describe the Library page.
  */
 function isLibraryPage(_, path) {
-    return new RegExp("/feed/library").test(path);
+    return new RegExp("/feed/library").test(path) || new RegExp("/feed/you").test(path);
 }
 
 /**
